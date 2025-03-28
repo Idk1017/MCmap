@@ -70,7 +70,7 @@ def draw_map():
         elif map_name=="endworld":
             endworld()
 
-    plt.title(f"Map Guide:{map_name}")
+    plt.title(f"Map Guide:{map_name.capitalize()}")
     plt.xlabel("X-coordinate")
     plt.ylabel("Z-coordinate")
     plt.legend()##
