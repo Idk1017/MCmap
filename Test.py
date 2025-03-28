@@ -1,7 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 
-st.title("Minecraft Map Guide")
+st.title("Minecraft不知道")
 
 # Function to draw the map
 def draw_map():
