@@ -4,12 +4,6 @@ import streamlit as st
 import json
 import os
 
-#code testing
-file="try.json"
-a=51121
-a=f"Idk what is \"a\" this: {a}"
-print(a)
-
 #Plotting functions
 def points():
     for point in data["points"]:
